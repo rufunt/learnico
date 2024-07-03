@@ -29,5 +29,58 @@ body {
 .award__img {
   position: absolute;
   top: 15px;
-  right: 155px;
+  right: 48px;
 }
+
+.wrapp {
+  max-width: 1280px;
+  min-height: 72px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header {
+  background-color: #00353b;
+}
+
+a {
+  color: white;
+  font-style: 15px;
+  text-decoration: none;
+}
+/* header start */
+.header__nav {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+.header__card {
+  display: flex;
+  gap: 24px;
+  align-items: center;
+}
+.header__menu {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+.header__menu img {
+  width: 25px;
+  height: 25px;
+}
+
+.header__menu a {
+  font-size: 16px;
+}
+
+.header__btn {
+  border-radius: 8px;
+  border: none;
+  padding: 13px 25px;
+  background-color: #fff;
+  cursor: pointer;
+  font-size: 16px;
+}
+/* header end */
